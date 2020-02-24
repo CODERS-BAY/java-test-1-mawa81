@@ -40,16 +40,36 @@ System.out.println(number/5.0);
 number += 7; 
 System.out.println(number);
 ```
+2 <br>
+2.4  (int -> double) <br>
+19 <br>
 
 ## Datentypen (5 Punkte)
 
 Welche Datentypen kennst du? 
 Gibt es Unterschiede bei der Verwendung zwischen einem `int` und einem `Integer`? 
 
+primitive und komplexe Datentypen (Objekte)
+
+primitive: int, double, long, short, byte, boolean, char
+komplexe: String, Integer, Double, Boolean...
+
+int ist nur ein primitiver Datentyp und hat keine Methoden!
+Integer ist eine Wrapperklasse (wird als einfaches Objekt behandelt) und besitzt somit einige Methoden <br>
+z.B. Integer.toString(), .intValueOf usw.
+
 ## Scope (5 Punkte) 
 
 Was ist der Scope einer Variable? 
 Erkläre anhand eines kleinen Beispielprogramms.
 
+Scope ist der Lebensraum in der eine Variable deklariert wird.
+Die Variable existiert nur innerhalb der geschwungenen Klammern.
+```java
+for(int i = 0; i < 10; i++){
+    System.out.println(i);
+}
+```
+der Scope der Variable i ist in der for-Schleife
 
 
